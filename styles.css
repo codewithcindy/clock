@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d9e0e2;
+}
+
+#clock {
+  background-color: #fff;
+  padding: 2rem;
+  width: 500px;
+  margin: 10rem auto;
+}
+
+.display {
+  background-color: #cddce0;
+  padding: 2rem;
+}
+
+.days {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.2;
+}
+
+.active {
+  opacity: 1;
+}
+
+.digits {
+  font-family: "M PLUS 1p", sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+}
